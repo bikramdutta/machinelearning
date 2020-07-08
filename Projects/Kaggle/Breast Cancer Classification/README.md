@@ -25,8 +25,6 @@
 
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
-![image.png](attachment:image.png)
-
 ## Important steps involved
 1. Import the data from sklean datasets
 2. Normalizing the data :: Range of (0,1)
