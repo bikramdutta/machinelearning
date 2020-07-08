@@ -27,6 +27,24 @@ https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
 ![image.png](attachment:image.png)
 
+## Important steps involved
+1. Import the data from sklean datasets
+2. Normalizing the data :: Range of (0,1)
+3. Examine the data and observe the correlations between features
+4. Visualize using pairplot 
+5. Take decision on the model to be used
+6. SVC model used 
+7. Accuracy observed
+
+## Result
+|              | precision | recall | f1-score | support |
+|--------------|-----------|--------|----------|---------|
+| 0.0          | 1.00      | 0.96   | 0.98     | 48      |
+| 1.0          | 0.97      | 1.00   | 0.99     | 66      |
+| accuracy     |           |        | 0.98     | 114     |
+| macro avg    | 0.99      | 0.98   | 0.98     | 114     |
+| weighted avg | 0.98      | 0.98   | 0.98     | 114     |
+
 ## Software and Libraries
 
 This project uses the following software and Python libraries:
